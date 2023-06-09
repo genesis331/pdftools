@@ -10,7 +10,6 @@ export default function GetInfoFn() {
 
     function handleFileDrop(files) {
         console.log(files);
-        nextStep();
     }
 
     return <Container>
@@ -50,7 +49,7 @@ export default function GetInfoFn() {
                     </Group>
                 </Dropzone>
                 <Flex align="center" justify="center" my={20}>
-                    <Button>
+                    <Button onClick={() => {nextStep();}}>
                         Extract
                     </Button>
                 </Flex>

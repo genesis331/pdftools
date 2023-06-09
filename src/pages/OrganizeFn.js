@@ -10,7 +10,6 @@ export default function OrganizeFn() {
 
     function handleFileDrop(files) {
         console.log(files);
-        nextStep();
     }
 
     return <Container>
@@ -49,7 +48,7 @@ export default function OrganizeFn() {
                     </Group>
                 </Dropzone>
                 <Flex align="center" justify="center" my={20}>
-                    <Button>
+                    <Button onClick={() => {nextStep();}}>
                         Organize
                     </Button>
                 </Flex>

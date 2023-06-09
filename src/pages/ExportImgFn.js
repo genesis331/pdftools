@@ -10,7 +10,6 @@ export default function ExportImgFn() {
 
     function handleFileDrop(files) {
         console.log(files);
-        nextStep();
     }
 
     return <Container>
@@ -49,7 +48,7 @@ export default function ExportImgFn() {
                     </Group>
                 </Dropzone>
                 <Flex align="center" justify="center" my={20}>
-                    <Button>
+                    <Button onClick={() => {nextStep();}}>
                         Convert
                     </Button>
                 </Flex>
