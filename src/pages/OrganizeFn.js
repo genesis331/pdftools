@@ -48,6 +48,11 @@ export default function OrganizeFn() {
                         </div>
                     </Group>
                 </Dropzone>
+                <Flex align="center" justify="center" my={20}>
+                    <Button>
+                        Organize
+                    </Button>
+                </Flex>
             </Stepper.Step>
             <Stepper.Step label="Organize file" pt={15} mb={20}>
                 <Flex align="center" justify="center" my={20}>

@@ -48,6 +48,11 @@ export default function ExportImgFn() {
                         </div>
                     </Group>
                 </Dropzone>
+                <Flex align="center" justify="center" my={20}>
+                    <Button>
+                        Convert
+                    </Button>
+                </Flex>
             </Stepper.Step>
             <Stepper.Step label="Convert file" pt={15} mb={20}>
                 <Flex align="center" justify="center" my={20}>

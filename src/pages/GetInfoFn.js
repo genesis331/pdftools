@@ -49,6 +49,11 @@ export default function GetInfoFn() {
                         </div>
                     </Group>
                 </Dropzone>
+                <Flex align="center" justify="center" my={20}>
+                    <Button>
+                        Extract
+                    </Button>
+                </Flex>
             </Stepper.Step>
             <Stepper.Step label="Read file" pt={15} mb={20}>
                 <Flex align="center" justify="center" my={20}>

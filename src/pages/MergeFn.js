@@ -48,6 +48,11 @@ export default function MergeFn() {
                         </div>
                     </Group>
                 </Dropzone>
+                <Flex align="center" justify="center" my={20}>
+                    <Button>
+                        Merge
+                    </Button>
+                </Flex>
             </Stepper.Step>
             <Stepper.Step label="Merge file" pt={15} mb={20}>
                 <Flex align="center" justify="center" my={20}>

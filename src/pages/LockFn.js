@@ -48,6 +48,11 @@ export default function LockFn() {
                         </div>
                     </Group>
                 </Dropzone>
+                <Flex align="center" justify="center" my={20}>
+                    <Button>
+                        Lock
+                    </Button>
+                </Flex>
             </Stepper.Step>
             <Stepper.Step label="Lock file" pt={15} mb={20}>
                 <Flex align="center" justify="center" my={20}>

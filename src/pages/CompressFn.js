@@ -48,6 +48,11 @@ export default function CompressFn() {
                         </div>
                     </Group>
                 </Dropzone>
+                <Flex align="center" justify="center" my={20}>
+                    <Button>
+                        Compress
+                    </Button>
+                </Flex>
             </Stepper.Step>
             <Stepper.Step label="Compress file" pt={15} mb={20}>
                 <Flex align="center" justify="center" my={20}>
